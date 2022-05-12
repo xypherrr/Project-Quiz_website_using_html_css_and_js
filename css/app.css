@@ -1,0 +1,110 @@
+:root{
+    background-color: #ecf5ff;
+    font-size: 62.5%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    color: #333;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', serif;
+}
+
+
+/* Heading elements */
+h1, h2, h3, h4{
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-size: 5.2rem;
+    color: #56a5eb;
+    margin-bottom: 5rem;
+}
+
+h2{
+    font-size: 4.2rem;
+    margin-bottom: 4rem;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 2.6rem;
+    font-weight: 500;
+}
+
+/* Buttons */
+.btn{
+    font-size: 1.8rem;
+    text-decoration: none;
+    border: 0.1rem solid #56a5eb;
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    width: 20rem;
+    text-align: center;
+    color: #56a5eb;
+    background-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+.btn[disabled]:hover{
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+/* Utility Classes */
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden{
+    display: none;
+}
+
+/* end page */
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#username{
+    width: 20rem;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+    box-shadow: 0 0.1rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+}
+
+input::placeholder {
+    color: #aaa;
+  }

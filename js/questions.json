@@ -1,0 +1,26 @@
+[
+    {
+        "question": "Which function is used to serialize an object into a JSON string in Javascript?",
+        "choice1": "stringify()",
+        "choice2": "parse()",
+        "choice3": "convert()",
+        "choice4": "None of the above",
+        "answer": 1
+    },
+    {
+        "question": "How do you write 'Hello World' in an alert box?",
+        "choice1": "msgBox('Hello World');",
+        "choice2": "alertBox('Hello World');",
+        "choice3": "msg('Hello World');",
+        "choice4": "alert('Hello World');",
+        "answer": 4
+    },
+    {
+        "question": "Which of the following is not a Javascript framework?",
+        "choice1": "Node",
+        "choice2": "Vue",
+        "choice3": "React",
+        "choice4": "Django",
+        "answer": 4
+    }
+]
